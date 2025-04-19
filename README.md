@@ -26,4 +26,4 @@ Alle Zusammenfassungen ab dem 2. Semester wurden mit Hilfe von Obsidian geschrie
 
 ## 🙋 Feedback
 
-Discord: `@xmozz`
+Discord: [@xmozz](https://discord.com/users/409696362280517632)
