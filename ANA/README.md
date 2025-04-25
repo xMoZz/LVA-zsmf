@@ -1,12 +1,12 @@
 # ANA – Arbeitsmaterialien Analysis (Nicht zur Veröffentlichung gedacht)
 
-**Wichtiger Hinweis:** Dieses Verzeichnis enthält momentan **keine vollständige, eigenständig erstellte Zusammenfassung** der Lehrveranstaltung Analysis. Die hier befindlichen Materialien dienen primär meiner persönlichen Stoffsammlung und sind **nicht zur öffentlichen Nutzung oder Weitergabe bestimmt.**
+**Wichtiger Hinweis:** Die Zusammenfassung sollte innerhalb der nächsten Woche erscheinen.
 
 ## ⚠️ Inhalt und Copyright-Hinweis
 
-Derzeit besteht der Inhalt dieses Ordners aus:
+Derzeit besteht der Inhalt meiner Zusammenfassung nur aus:
 
--   **Bildern aus dem Lehrbuch "Mathematik für Informatik"**: Diese Bilder sind urheberrechtlich geschützt und dürfen ohne Genehmigung des Verlags nicht öffentlich verbreitet werden.
+-   **Abfotografierte Bildern aus dem Lehrbuch "Mathematik für Informatik"**: Diese Bilder sind urheberrechtlich geschützt und dürfen ohne Genehmigung des Verlags nicht öffentlich verbreitet werden.
 -   **Abfotografierten Tafelbildern**: Diese enthalten Inhalte, die möglicherweise auf dem geistigen Eigentum des Vortragenden basieren.
 -   **Anderen gefundenen Zusammenfassungen**: Diese Materialien stammen aus verschiedenen Quellen und unterliegen möglicherweise ebenfalls dem Urheberrecht Dritter.
 
@@ -16,7 +16,7 @@ Es ist geplant, diese Stoffsammlung in Zukunft in eine **eigene, strukturierte Z
 
 ## 🔒 Keine Veröffentlichung in dieser Form
 
-Aufgrund der oben genannten Gründe und der bestehenden Copyright-Bedenken **werde ich die Materialien in ihrer aktuellen Form nicht öffentlich veröffentlichen.** Eine Veröffentlichung erfolgt erst, nachdem eine vollständige, eigenständige Zusammenfassung erstellt wurde.
+Aufgrund der oben genannten Gründe und der bestehenden Copyright-Bedenken **werde ich die Materialien in ihrer aktuellen Form nicht öffentlich veröffentlichen.** Eine Veröffentlichung erfolgt erst, nachdem eine halbwegs, eigenständige Zusammenfassung erstellt wurde.
 
 ## 🙋 Kontakt
 
