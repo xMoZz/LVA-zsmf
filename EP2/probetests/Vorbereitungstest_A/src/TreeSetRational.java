@@ -1,3 +1,5 @@
+import java.beans.PropertyEditorManager;
+
 /**
  * A set of rational numbers implemented as a binary search tree. There are no
  * duplicate entries in this set (no two elements e1 and e2 for which e1.compareTo(e2) == 0). The
@@ -9,17 +11,13 @@
 //   if needed. Do NOT use the Java-Collection framework in your implementation.
 //
 public class TreeSetRational {
-    // TODO: define missing parts of the class.
-    private RatNode root;
-
+    Node root;
 
     /**
      * Initialises 'this' as an empty set.
      */
     public TreeSetRational() {
-        // TODO: implement constructor.
-
-
+        this.root = null;
     }
 
     /**
@@ -30,33 +28,37 @@ public class TreeSetRational {
      * @param r the rational number to add to this set, r != null.
      */
     public boolean add(Rational r) {
-        // TODO: implement method.
 
         if (root == null) {
-            root = new RatNode(r);
+            root = new Node(r);
             return true;
         }
+        return add_rek(r, root);
+    }
 
-        RatNode current = root;
-        while (r.compareTo(current.getValue()) != 0) {
-            if (r.compareTo(current.getValue()) == 0) {
-                return false;
-            } else if (r.compareTo(current.getValue()) == 1) {
-                if (current.getRight() == null) {
-                    current.setRight(new RatNode(r));
-                    return true;
-                }
-                current = current.getRight();
-            } else if (r.compareTo(current.getValue()) == -1) {
-                if (current.getLeft() == null) {
-                    current.setLeft(new RatNode(r));
-                    return true;
-                }
-                current = current.getLeft();
+    private boolean add_rek(Rational r, Node current) {
+        if (current == null) return false;
+
+        if (current.getValue().compareTo(r) == 0) {
+            return false;
+        }
+        if (r.compareTo(current.getValue()) == -1) {
+            if (current.getLeft() == null) {
+                current.setLeft(new Node(r));
+                return true;
             }
+            return add_rek(r, current.getLeft());
+        }
+        if (r.compareTo(current.getValue()) == 1) {
+            if (current.getRight() == null) {
+                current.setRight(new Node(r));
+                return true;
+            }
+            return add_rek(r, current.getRight());
         }
         return false;
     }
+
 
     /**
      * Returns a new 'TreeSetRational' object that is the union of this set and the 'other' set.
@@ -65,31 +67,26 @@ public class TreeSetRational {
      * @param other the second operand != null.
      */
     public TreeSetRational union(TreeSetRational other) {
+        // TODO: implement method.
         TreeSetRational result = new TreeSetRational();
 
-        // Add all elements from 'this' tree to the result
-        addAllToTree(this.root, result);
-
-        // Add all elements from 'other' tree to the result
-        addAllToTree(other.root, result);
+        union_rek(result, this.root);
+        union_rek(result, other.root);
 
         return result;
     }
 
-    /**
-     * Helper method to add all elements from a subtree to a TreeSetRational.
-     *
-     * @param node the root of the subtree.
-     * @param tree the TreeSetRational to which elements are added.
-     */
-    private void addAllToTree(RatNode node, TreeSetRational tree) {
-        if (node == null) {
-            return;
-        }
-        tree.add(node.getValue());
-        addAllToTree(node.getLeft(), tree);
-        addAllToTree(node.getRight(), tree);
+    private void union_rek(TreeSetRational desti, Node current) {
+
+        desti.add(current.getValue());
+
+        if (current.getLeft() != null)
+            union_rek(desti, current.getLeft());
+        if (current.getRight() != null)
+            union_rek(desti, current.getRight());
+
     }
+
 
     /**
      * Returns the number of rational numbers in the set that are within the range defined by
@@ -103,25 +100,37 @@ public class TreeSetRational {
      * @return number of rational numbers in the set that are within the specified range.
      */
     public int countWithinRange(Rational lowest, Rational highest) {
-
         // TODO: implement method.
-        return addAllToTreeforSum(root, lowest, highest);
+
+        int[] sum = new int[]{0};
+
+        count_rek(lowest, highest, root, sum);
+        int result = count_rek2(lowest, highest, root);
+
+        return result;
     }
 
-    private int addAllToTreeforSum(RatNode node, Rational lowest, Rational highest) {
-        if (node == null) {
-            return 0;
-        }
+    // ich weiß nicht ob man das so machen dürfte, deshalb noch eien alternative Version drunter.
+    private void count_rek(Rational lowest, Rational highest, Node current, int[] sum) {
+        if (current == null) return;
+
+        if (lowest.compareTo(current.getValue()) <= 0 && highest.compareTo(current.getValue()) >= 0)
+            sum[0]++;
+
+        count_rek(lowest, highest, current.getLeft(), sum);
+        count_rek(lowest, highest, current.getRight(), sum);
+    }
+
+    private int count_rek2(Rational lowest, Rational highest, Node current) {
+        if (current == null) return 0;
 
         int count = 0;
 
-        if (node.getValue().compareTo(lowest) >= 0 && node.getValue().compareTo(highest) <= 0) {
-            count = 1;
-        }
+        if (lowest.compareTo(current.getValue()) <= 0 && highest.compareTo(current.getValue()) >= 0)
+            count++;
 
-        count += addAllToTreeforSum(node.getLeft(), lowest, highest);
-        count += addAllToTreeforSum(node.getRight(), lowest, highest);
-
+        count += count_rek2(lowest, highest, current.getLeft());
+        count += count_rek2(lowest, highest, current.getRight());
         return count;
     }
 
@@ -136,28 +145,26 @@ public class TreeSetRational {
      */
     public Rational removeMinimum() {
         // TODO: implement method.
+
         if (this.root == null) return null;
 
         if (root.getLeft() == null) {
-            RatNode result = root;
+            Node result = root;
             root = root.getRight();
             return result.getValue();
         }
 
-        RatNode current = root;
-
-        RatNode parent = root;
-
+        Node current = root;
+        Node parent = null;
         while (current.getLeft() != null) {
             parent = current;
             current = current.getLeft();
         }
-
-        Rational result = current.getValue();
+        Node result = current;
         parent.setLeft(current.getRight());
-
-        return result;
+        return result.getValue();
     }
+
 
     /**
      * Returns a string representation of 'this' with all rational objects
@@ -170,41 +177,29 @@ public class TreeSetRational {
      */
     public String toString() {
         // TODO: implement method.
+        String string = "[";
 
-        StringBuilder sb = new StringBuilder("[");
-
-        // Wenn der Baum nicht leer ist, starten wir mit der Traversierung
-        if (root != null) {
-            inOrderTraversal(root, sb);
-
-            // Entferne das letzte Komma, das nach dem letzten Wert bleibt
-            if (sb.length() > 1) {
-                sb.delete(sb.length() - 2, sb.length());
-            }
+        if (this.root == null) {
+            string += "]";
+        } else {
+            string += stringAdd(root);
+            string = string.substring(0, string.length() - 2) + "]";
         }
 
-        sb.append("]");
-        return sb.toString();
+        return string;
     }
 
-    // In-Order Traversal des Baumes
-    private void inOrderTraversal(RatNode node, StringBuilder sb) {
-        if (node == null) {
-            return;
-        }
+    private String stringAdd(Node current) {
+        String result = "";
 
-        // Traversiere zuerst den linken Teilbaum
-        inOrderTraversal(node.getLeft(), sb);
+        if (current == null) return result;
 
-        // Füge den aktuellen Wert hinzu
-        sb.append(node.getValue().toString());
-        sb.append(", ");  // Trenne mit einem Komma
+        result += stringAdd(current.getLeft());
+        result += current.getValue().toString() + ", ";
+        result += stringAdd(current.getRight());
 
-        // Traversiere dann den rechten Teilbaum
-        inOrderTraversal(node.getRight(), sb);
+        return result;
     }
-
-
 }
 
 // TODO: define further classes, if needed (either here or in a separate file).

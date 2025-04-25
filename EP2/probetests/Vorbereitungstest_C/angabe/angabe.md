@@ -3,7 +3,7 @@
 ### Allgemeine Hinweise
 
 * Die Lösung Ihrer Aufgabe muss im vorgegebenen Projekt und damit in den vorhandenen Dateien
-  erfolgen. 
+  erfolgen.
 * Sie dürfen zur Lösung dieser Aufgabe *nicht* auf das Java Collections Framework zurückgreifen.
 * Verändern Sie keine der vorgegebenen Methodensignaturen.
 * Implementieren Sie keine unnötigen Getter-/Setter-Methoden.

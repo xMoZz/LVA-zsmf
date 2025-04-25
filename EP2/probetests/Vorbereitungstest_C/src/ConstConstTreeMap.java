@@ -13,16 +13,19 @@
 //       Do NOT use the Java-Collection framework in 'ConstConstTreeMap' or any other class.
 //
 public class ConstConstTreeMap {
-    private PolyNode root = null;
 
     //TODO: additional variables, constructors and methods must be private.
+
+    private Node root;
 
     /**
      * Initializes 'this' as an empty map.
      */
     public ConstConstTreeMap() {
-
         //TODO: implement constructor.
+        this.root = null;
+
+
     }
 
     /**
@@ -33,22 +36,19 @@ public class ConstConstTreeMap {
      */
     public ConstConstTreeMap(ConstConstTreeMap map) {
         //TODO: implement constructor.
-        this.root = ConstConstTreeMap_rekursiv(map.root);
+
+        if (map == null) return;
+        rekursiv_ConstConstTreeMap(map, map.root);
     }
 
-    private PolyNode ConstConstTreeMap_rekursiv(PolyNode current_root) {
-        if (current_root != null) {
-            PolyNode right_copy = ConstConstTreeMap_rekursiv(current_root.getRight());
-            PolyNode left_copy = ConstConstTreeMap_rekursiv(current_root.getLeft());
+    private void rekursiv_ConstConstTreeMap(ConstConstTreeMap map, Node current) {
+        if (current == null) {
+            return;
+        }
+        this.put(current.getDegree(), current.getValue());
 
-            PolyNode result = new PolyNode();
-            result.setLeft(left_copy);
-            result.setRight(right_copy);
-            result.setKey(current_root.getKey());
-            result.setValue(current_root.getValue());
-
-            return result;
-        } else return null;
+        rekursiv_ConstConstTreeMap(map, current.getLeft());
+        rekursiv_ConstConstTreeMap(map, current.getRight());
     }
 
 
@@ -61,51 +61,42 @@ public class ConstConstTreeMap {
      * @return the old value if the key already existed in this map, or 'null' otherwise.
      */
     public IntConst put(IntConst key, IntConst value) {
-        //TODO: implement method.
-        if (key == null) return null;
-
+        //if (key == null || value == null) return null;
 
         if (root == null) {
-            root = new PolyNode();
-            root.setKey(key);
-            root.setValue(value);
+            root = new Node(key, value);
             return null;
         }
 
-        return IntConst_rekursiv(key, value, root);
+        return rek_put(key, value, root);
+
     }
 
-    private IntConst IntConst_rekursiv(IntConst key, IntConst value, PolyNode current) {
-        //System.out.println("Current: "+ current.getKey() + " Key: " + key + "\n\n");
+    private IntConst rek_put(IntConst key, IntConst value, Node current) {
 
+        if (current == null) {
+            return null;
+        }
 
-        if (current == null) return null;
-
-        if (current.getKey().isEqual(key)) {
-            IntConst oldValue = current.getValue();
+        if (key.isEqual(current.getDegree())) {
+            IntConst result = current.getValue();
             current.setValue(value);
-            return oldValue;
-        }
-        else if (key.lessThan(current.getKey())) {
+            return result;
+        } else if (key.lessThan(current.getDegree())) {
             if (current.getLeft() == null) {
-                PolyNode result = new PolyNode();
-                result.setKey(key);
-                result.setValue(null);
-                current.setLeft(result);
+                current.setLeft(new Node(key, value));
+                return null;
             }
-            return IntConst_rekursiv(key, value, current.getLeft());
-        } else if (current.getKey().lessThan(key)){
+            return rek_put(key, value, current.getLeft());
+        } else if (current.getDegree().lessThan(key)) {
             if (current.getRight() == null) {
-                PolyNode result = new PolyNode();
-                result.setKey(key);
-                result.setValue(null);
-                current.setRight(result);
+                current.setRight(new Node(key, value));
+                return null;
             }
-            return IntConst_rekursiv(key, value, current.getRight());
+            return rek_put(key, value, current.getRight());
         }
-        else return null;
+        return null;
     }
-
 
     /**
      * Returns the value associated with the specified key. Returns 'null' if the key is not
@@ -116,19 +107,26 @@ public class ConstConstTreeMap {
      * this map).
      */
     public IntConst get(IntConst key) {
-        if (key == null) return null;
-        return get_rekursiv(key, root);
+        if (key == null) {
+            return null;
+        }
+        return getRekursiv(key, root);
     }
 
-    private IntConst get_rekursiv(IntConst key, PolyNode current) {
-        if (current == null) {
-            return null;
-        } else if (key.isEqual(current.getKey())) {
+    private IntConst getRekursiv(IntConst key, Node current) {
+        if (key.isEqual(current.getDegree())) {
             return current.getValue();
-        } else if (key.lessThan(current.getKey())) {
-            return get_rekursiv(key, current.getLeft());
+        }
+        if (key.lessThan(current.getDegree())) {
+            if (current.getLeft() == null) {
+                return null;
+            }
+            return getRekursiv(key, current.getLeft());
         } else {
-            return get_rekursiv(key, current.getRight());
+            if (current.getRight() == null) {
+                return null;
+            }
+            return getRekursiv(key, current.getRight());
         }
     }
 
@@ -140,19 +138,16 @@ public class ConstConstTreeMap {
      * @param queue the queue, which is not null.
      */
     public void addAllKeysTo(IntConstQueue queue) {
-        //TODO: implement method.
-        add_rekursiv(queue, root);
+        add_rek(queue, root);
     }
 
-    private void add_rekursiv(IntConstQueue queue, PolyNode current) {
-        if (current == null || queue == null)
+    private void add_rek(IntConstQueue queue, Node current) {
+        if (current == null) {
             return;
-
-        else {
-            add_rekursiv(queue, current.getLeft());
-            queue.add(current.getKey());
-            add_rekursiv(queue, current.getRight());
         }
+        add_rek(queue, current.getLeft());
+        queue.add(current.getDegree());
+        add_rek(queue, current.getRight());
     }
 
 }

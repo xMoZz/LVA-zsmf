@@ -10,9 +10,10 @@
 //       Do NOT use the Java-Collection framework in 'Polynomial' or any other class.
 //
 public class Polynomial {
-    //TODO: additional variables, constructors and methods must be private.
 
-    private ConstConstTreeMap monomials;
+    //TODO: additional variables, constructors and methods must be private.
+    private ConstConstTreeMap monominals;
+
 
     /**
      * Initializes this polynomial using the specified map in which in each key-value pair
@@ -24,8 +25,8 @@ public class Polynomial {
      *             'map' is not empty.
      */
     public Polynomial(ConstConstTreeMap map) {
-        //TODO: define constructor.
-        this.monomials = map;
+        if (map == null) return;
+        this.monominals = map;
     }
 
     /**
@@ -36,26 +37,20 @@ public class Polynomial {
      */
     public Polynomial plus(Polynomial p) {
         //TODO: implement method.
+        IntConstQueue q = new IntConstQueue();
+        p.monominals.addAllKeysTo(q);
 
-        ConstConstTreeMap result = new ConstConstTreeMap(monomials); // defensive copy
+        ConstConstTreeMap result = new ConstConstTreeMap(monominals);
 
-        IntConstQueue queue = new IntConstQueue();
-        p.monomials.addAllKeysTo(queue); // alle Grade aus 'p'
 
-        while (queue.size() > 0) {
-            IntConst degree = queue.poll();
-
-            IntConst value1 = result.get(degree);        // eventuell null
-            IntConst value2 = p.monomials.get(degree);   // nie null, da aus p
-
-            if (value1 == null)
-                value1 = new IntConst(0);
-
-            IntConst sum = (value1.plus(value2));
-
-            result.put(degree, sum);
+        for (int i = 0; i < q.size(); i++) {
+            IntConst current_key = q.poll();
+            if (this.monominals.get(current_key) == null) {
+                result.put(current_key, p.monominals.get(current_key));
+            } else {
+                result.put(current_key, p.monominals.get(current_key).plus(this.monominals.get(current_key)));
+            }
         }
-
         return new Polynomial(result);
     }
 
@@ -70,21 +65,21 @@ public class Polynomial {
      * @return the string representation of this polynomial.
      */
     public String toString() {
-        // TODO: implement method.
-        IntConstQueue q = new IntConstQueue();
-        this.monomials.addAllKeysTo(q);
-
         String result = "";
 
-        while (q.size() > 1) {
-            IntConst currentdegree = q.poll();
-            if (!(this.monomials.get(currentdegree).isEqual(new IntConst(0)))) {
-                result += this.monomials.get(currentdegree) + "x^" + currentdegree + "+";
-            }
+        IntConstQueue q = new IntConstQueue();
+        this.monominals.addAllKeysTo(q);
+
+        for (int i = 0; i < q.size(); i++) {
+            IntConst currentDegree = q.poll();
+
+            if (!(this.monominals.get(currentDegree).isEqual(new IntConst(0))))
+                result += ("" + this.monominals.get(currentDegree) + "x^" + currentDegree + " + ");
         }
-        IntConst currentdegree = q.poll();
-        if (!(this.monomials.get(currentdegree).isEqual(new IntConst(0)))) {
-            result += this.monomials.get(currentdegree) + "x^" + currentdegree;
+        IntConst currentDegree = q.poll();
+
+        if (!(this.monominals.get(currentDegree).isEqual(new IntConst(0)))) {
+            result += ("" + this.monominals.get(currentDegree) + "x^" + currentDegree);
         }
         return result;
     }

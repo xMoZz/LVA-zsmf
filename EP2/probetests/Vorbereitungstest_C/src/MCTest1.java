@@ -11,41 +11,41 @@ public class MCTest1 {
 
                 new Question(
                         "Welche der folgenden Aussagen müssen für jede Verwendung von\n" +
-                        "'this(...)' bzw. 'this' in einem Konstruktor zutreffen?",
+                                "'this(...)' bzw. 'this' in einem Konstruktor zutreffen?",
 
                         new Choice(false, "'this' ist nur in 'final' Konstruktoren verwendbar.                           (1A)"),
                         new Choice(false, "'this' darf in Konstruktoren nicht verwendet werden.                          (1B)"),
-                        new Choice(true, "'this = null;' darf nur als erste Anweisung vorkommen.                        (1C)"),
+                        new Choice(false, "'this = null;' darf nur als erste Anweisung vorkommen.                        (1C)"),
                         new Choice(true, "'this' referenziert das Objekt, das gerade initialisiert wird.                (1D)"),
                         new Choice(true, "Der Wert von 'this' kann nicht 'null' sein.                                   (1E)")
                 ),
 
                 new Question(
                         "e sei eine Variable mit einem einfachen binären Suchbaum (nicht AVL-Baum)\n" +
-                        "ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:\n" +
-                        "    STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +
-                        "Welche der folgenden Aussagen treffen auf e zu?",
+                                "ganzer Zahlen, der durch diese Anweisungen aufgebaut wurde:\n" +
+                                "    STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +
+                                "Welche der folgenden Aussagen treffen auf e zu?",
 
-                        new Choice(false, "Der CamelNode mit Wert 6 ist die Wurzel.                                         (2A)"),
-                        new Choice(true, "Der CamelNode mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)"),
+                        new Choice(false, "Der Knoten mit Wert 6 ist die Wurzel.                                         (2A)"),
+                        new Choice(true, "Der Knoten mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)"),
                         new Choice(true, "Der Baum ist nicht ausbalanciert.                                             (2C)"),
-                        new Choice(true, "Der CamelNode mit Wert 6 hat zumindest ein Kind.                                 (2D)"),
-                        new Choice(false, "Der CamelNode mit Wert 0 ist ein Blattknoten.                                    (2E)")
+                        new Choice(true, "Der Knoten mit Wert 6 hat zumindest ein Kind.                                 (2D)"),
+                        new Choice(false, "Der Knoten mit Wert 0 ist ein Blattknoten.                                    (2E)")
                 ),
 
                 new Question(
                         "X, U und C seien beliebige Referenztypen. Welche der folgenden Aussagen treffen zu?",
 
-                        new Choice(false, "Ist U eine Klasse, dann ist U Untertyp von java.lang.Object.                  (3A)"),
+                        new Choice(true, "Ist U eine Klasse, dann ist U Untertyp von java.lang.Object.                  (3A)"),
                         new Choice(true, "Aus 'C ist Klasse' und 'U ist Interface' folgt: 'U ist kein Untertyp von C'.  (3B)"),
-                        new Choice(false, "Aus 'U Untertyp von C' folgt: 'Kommentare in U und C passen zusammen'.        (3C)"),
+                        new Choice(true, "Aus 'U Untertyp von C' folgt: 'Kommentare in U und C passen zusammen'.        (3C)"),
                         new Choice(true, "Ist X kein Untertyp von java.lang.Object, dann ist X ein Interface.           (3D)"),
                         new Choice(false, "Aus 'U Untertyp von C' und 'C Untertyp von X' folgt: 'U.class==X.class'.      (3E)")
                 ),
 
                 new Question(
                         "o sei eine Variable mit einem leeren Stack ganzer Zahlen.\n" +
-                        "Nach welchen der folgenden Aufruf-Sequenzen liefert 'o.peek()' die Zahl 1 als Ergebnis?",
+                                "Nach welchen der folgenden Aufruf-Sequenzen liefert 'o.peek()' die Zahl 1 als Ergebnis?",
 
                         new Choice(false, "o.push(1); o.push(8); o.push(o.peek());                                       (4A)"),
                         new Choice(false, "o.push(6); o.push(1); o.push(8);                                              (4B)"),
@@ -59,7 +59,7 @@ public class MCTest1 {
 
                         new Choice(false, "Kommentare sind in abstrakten Datentypen bedeutungslos.                       (5A)"),
                         new Choice(false, "Datenkapselung ist ein anderer Begriff für Data-Hiding.                       (5B)"),
-                        new Choice(false, "Datenkapselung fügt Variablen und Methoden zu einer Einheit zusammen.         (5C)"),
+                        new Choice(true, "Datenkapselung fügt Variablen und Methoden zu einer Einheit zusammen.         (5C)"),
                         new Choice(false, "Data-Hiding behindert die Datenabstraktion.                                   (5D)"),
                         new Choice(true, "Klassen implementieren abstrakte Datentypen.                                  (5E)")
                 )
@@ -87,11 +87,11 @@ public class MCTest1 {
             "        STree e = new STree(); e.add(0); e.add(6); e.add(5);\n" +
             "    Welche der folgenden Aussagen treffen auf e zu?\n" +
             "    \n" +
-            "    XXXXXXXXX Der CamelNode mit Wert 6 ist die Wurzel.                                         (2A)\n" +
-            "    XXXXXXXXX Der CamelNode mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)\n" +
+            "    XXXXXXXXX Der Knoten mit Wert 6 ist die Wurzel.                                         (2A)\n" +
+            "    XXXXXXXXX Der Knoten mit Wert 6 ist Elter von dem mit Wert 5.                           (2B)\n" +
             "    XXXXXXXXX Der Baum ist nicht ausbalanciert.                                             (2C)\n" +
-            "    XXXXXXXXX Der CamelNode mit Wert 6 hat zumindest ein Kind.                                 (2D)\n" +
-            "    XXXXXXXXX Der CamelNode mit Wert 0 ist ein Blattknoten.                                    (2E)\n" +
+            "    XXXXXXXXX Der Knoten mit Wert 6 hat zumindest ein Kind.                                 (2D)\n" +
+            "    XXXXXXXXX Der Knoten mit Wert 0 ist ein Blattknoten.                                    (2E)\n" +
             "\n" +
             " 3. X, U und C seien beliebige Referenztypen. Welche der folgenden Aussagen treffen zu?\n" +
             "    \n" +

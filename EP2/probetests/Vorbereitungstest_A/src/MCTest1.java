@@ -14,7 +14,7 @@ public class MCTest1 {
 
                         new Choice(false, "Aus 'R Untertyp von M' folgt: 'R ist Klasse', 'M ist Interface'.              (1A)"),
                         new Choice(false, "R ist kein Untertyp von R.                                                    (1B)"),
-                        new Choice(true, "Ist L ein Interface, dann ist L Untertyp von java.lang.Object.                (1C)"),
+                        new Choice(false, "Ist L ein Interface, dann ist L Untertyp von java.lang.Object.                (1C)"),
                         new Choice(false, "'null' ist ein Objekt von jedem Referenztyp M.                                (1D)"),
                         new Choice(false, "Aus 'R Untertyp von M' folgt: 'Kommentare in R und M müssen gleich sein'.     (1E)")
                 ),
@@ -36,7 +36,7 @@ public class MCTest1 {
                         "Welche der folgenden Aussagen treffen für alle passenden Y, T, W und m zu?",
 
                         new Choice(true, "Mit 'W ist Untertyp von Y' gilt: '((Y)m).getClass() == W.class'               (3A)"),
-                        new Choice(true, "'(Y)m' liefert Laufzeitfehler wenn Y nicht Untertyp von W ist.                (3B)"),
+                        new Choice(false, "'(Y)m' liefert Laufzeitfehler wenn Y nicht Untertyp von W ist.                (3B)"),
                         new Choice(false, "'(Y)null' liefert einen Laufzeitfehler.                                       (3C)"),
                         new Choice(false, "'(Y)m' liefert einen Laufzeitfehler wenn T Untertyp von Y ist.                (3D)"),
                         new Choice(true, "T ist Obertyp von W.                                                          (3E)")
