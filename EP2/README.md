@@ -43,6 +43,10 @@ Die **einzelnen Kapitel-PDFs** findest du im Unterordner `individually/` und sin
 -   **Slides** der LVA
 -   **Mitschriften** aus den Vorlesungen
 
+## Weitere Informationen und Beispiele:
+
+Für mehr Übung / Praxisbezogene Erklärungen empfiehlt sich [BetterEP2](https://github.com/AnonymeMasse/BetterEP2/tree/main)
+
 ## 🙋 Feedback
 
 Falls du Verbesserungsvorschläge oder Korrekturen hast, schreib mir gerne auf **Discord**: `@xmozz`
