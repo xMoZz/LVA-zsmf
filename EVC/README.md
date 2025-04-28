@@ -46,8 +46,7 @@ Behandelte Kapitel:
 
 ## 📄 Formate
 
-- **A4**: Fürs Lesen am Handy.
-- **A3**: Fürs Lesen am Laptop/PC breitere Layouts.
+- **Vollständige PDF**: Fürs "schnelle" durchlesen.
 - **Kapitel-weise PDFs**: Jede Zusammenfassung ist nun auch in einzelne Kapitel unterteilt als PDF verfügbar.
 
 ## 📚 Quellen
