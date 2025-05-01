@@ -6,7 +6,7 @@ Willkommen zu meinen Zusammenfassungen/Stoffsammlung der Lehrveranstaltung **Ana
 
 Diese Zusammenfassungen wurden in **Obsidian** im Markdown-Format erstellt und stehen als vollständige und als **in einzelne Kapitel unterteilte PDF-Dateien** zur Verfügung.
 
-Da die meisten Inhalte aus Sätzen / Definitionen bestehen, wurde vieles davon aus dem Buch [Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm) übernommen. 
+Da die meisten Inhalte aus Sätzen / Definitionen bestehen, wurde vieles davon aus dem Buch [Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm) übernommen und kommentiert / mit Informationen welche auf den Tafelbildern der vo waren erweitert. 
 
 ## 📁 Inhalt
 
@@ -32,6 +32,8 @@ Die PDF mit allen Kapiteln findest du direkt in diesem Ordner.
         - Tafelbilder der vo
         - Sätze und Beispiele die in der vo gesprochen wurden
 
+- Wichtige Ergänzung: 
+    - Oft sind Verlinkungen zu Tafelbilder/Buchseiten in der Zusammenfassung drinnen, diese funktionieren im PDF Format allerdings nicht. Daher hab ich bei der Erstellung drauf geachtet, die Tafelbilder/Buchausschnitte von denen Informationen in der Zusammenfassung fehlen, als Screenshot einzufügen, sodass keine Information fehlt. Bei denen wo eine nicht funktionierende Verlinkung steht, stehen keine Informationen, die nicht schon in der Zusammenfassung/Stoffsammlung behandelt wurden und dienen daher lediglich als Quellenangabe/Notiz für mich.
 
 
 ## 📚 Quellen
