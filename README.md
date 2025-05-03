@@ -4,6 +4,10 @@ Sammlung meiner Zusammenfassungen für verschiedene Lehrveranstaltungen.
 
 ## 📁 Fächer
 
+### [ANA](ANA/) - Analysis 1
+
+Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Übungstest als PDFs)
+
 ### [EVC](EVC/) – Computer Grafik & Computer Vision
 
 Umfangreiche Zusammenfassungen (vollständig & kapitelweise PDF), Formelsammlung, Alttests.
@@ -18,7 +22,7 @@ Zusammenfassungen für Fächer aus dem 1. Semester findest du in diesem [OneNote
 
 ## ➕ Kommende Zusammenfassungen
 
-Weitere Fächer wie ANA, DBS und AlgoDat folgen im Laufe des Semesters.
+Weitere Fächer wie DBS und AlgoDat folgen im Laufe des Semesters.
 
 ## 📄 Format
 
