@@ -10,6 +10,7 @@ Da die meisten Inhalte aus Sätzen / Definitionen bestehen, wurde vieles davon a
 
 ## 📁 Inhalt
 
+### Zusammenfassung
 Die Zusammenfassung ist in die Kapitel der LVA unterteilt:
 
 - 4. Folgen Reihen und Funktionen
@@ -24,6 +25,10 @@ Die Zusammenfassung ist in die Kapitel der LVA unterteilt:
 
 
 Die PDF mit allen Kapiteln findest du direkt in diesem Ordner.
+
+### Formelsammlung von [aldinapoli](https://discord.com/users/575710766787985435).
+Die Formelsammlung ist in die Kapitel der LVA unterteilt
+Die PDF mit allen Kapiteln findest du direkt in diesem Ordner
 
 ## 📄 Format
 -   **1. Test -- Zusammenfassung.pdf**: Stoffsammlung für den 1. Zwischentest
