@@ -7,6 +7,7 @@ Sammlung meiner Zusammenfassungen für verschiedene Lehrveranstaltungen.
 ### [ANA](ANA/) - Analysis 1
 
 Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Übungstest als PDFs)
+Umfangreiche Formelsammlung von [aldinapoli](https://discord.com/users/575710766787985435).
 
 ### [EVC](EVC/) – Computer Grafik & Computer Vision
 
@@ -31,3 +32,5 @@ Alle Zusammenfassungen ab dem 2. Semester wurden mit Hilfe von Obsidian geschrie
 ## 🙋 Feedback
 
 Discord: [@xmozz](https://discord.com/users/409696362280517632)
+
+
