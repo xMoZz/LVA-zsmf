@@ -52,6 +52,6 @@ Die PDF mit allen Kapiteln findest du direkt in diesem Ordner
 
 ## 🙋 Feedback
 
-Discord: [@xmozz](https://discord.com/users/409696362280517632)
+Discord: [@xmozz](https://discord.com/users/409696362280517632), [aldinapoli](https://discord.com/users/575710766787985435)
 
 ---
