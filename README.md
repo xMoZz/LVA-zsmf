@@ -4,6 +4,13 @@ Sammlung meiner Zusammenfassungen für verschiedene Lehrveranstaltungen.
 
 ## 📁 Fächer
 
+### [AlgoDat](AlgoDat/) - Algorithmen und Datenstrukturen
+
+Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Test als PDF)
+
+Kurzzusammenfassung zum schnellen Widerholen des Stoffes folgt noch.
+
+
 ### [ANA](ANA/) - Analysis 1
 
 Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Übungstest als PDFs)
@@ -28,7 +35,7 @@ Zusammenfassungen für Fächer aus dem 1. Semester findest du in diesem [OneNote
 
 ## ➕ Kommende Zusammenfassungen
 
-Weitere Fächer wie DBS und AlgoDat folgen im Laufe des Semesters.
+Weitere Fächer wie DBS folgen im Laufe des Semesters.
 
 
 ## 📄 Format
