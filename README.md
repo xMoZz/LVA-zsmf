@@ -17,6 +17,10 @@ Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusamme
 
 Umfangreiche Formelsammlung von [aldinapoli](https://discord.com/users/575710766787985435).
 
+### [DBS](dbs/) – Datenbanksysteme
+
+Umfangreiche Ausarbeitung von den Slides (vollständig & kapitelweise PDF), Alttests.
+
 
 ### [EVC](EVC/) – Computer Grafik & Computer Vision
 
