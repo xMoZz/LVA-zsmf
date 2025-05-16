@@ -25,16 +25,9 @@ Die Zusammenfassung deckt folgende Kapitel ab:
 
 Die **Test-Zusammenfassung** für den ersten Test findest du direkt in diesem Ordner als `1. Test zusammenfassungs datei.pdf`.
 
-Die **einzelnen Kapitel-PDFs** findest du im Unterordner `einzelne_kapitel/` und sind benannt als:
+Die **einzelnen Kapitel-PDFs** findest du im Unterordner `einzelne_kapitel/`.
 
--   `1. Stable Matching Problem.pdf`
--   `2. Analyse von Algorithmen.pdf`
--   `3. Graphen.pdf`
--   `4. Greedy-Algorithmen.pdf`
--   `5. Divide and Conquer.pdf`
--   `6. Suchbäume.pdf`
--   `7. Hashing.pdf`
--   `8. Praktische Datenstrukturen.pdf`
+Außerdem gibt es noch von mir gelöste Alltests zum Vergleichen, falls man üben will. Da sollte man allerdings eher vorsichtig sein, da diese auch Fehler enthalten könnten. Falls du Fehler findest melde dich bitte bei mir auf [Discord](https://discord.com/users/409696362280517632).
 
 ## 📄 Format
 
