@@ -12,6 +12,8 @@ Für den ersten Test gibt es eine separate zusammenfassende PDF-Datei. Zusätzli
 
 ## 📁 Inhalt
 
+### Zusammenfassung
+
 Die Zusammenfassung deckt folgende Kapitel ab:
 
 1.  Stable Matching Problem
@@ -27,7 +29,13 @@ Die **Test-Zusammenfassung** für den ersten Test findest du direkt in diesem Or
 
 Die **einzelnen Kapitel-PDFs** findest du im Unterordner `einzelne_kapitel/`.
 
-Außerdem gibt es noch von mir gelöste Alltests zum Vergleichen, falls man üben will. Da sollte man allerdings eher vorsichtig sein, da diese auch Fehler enthalten könnten. Falls du Fehler findest melde dich bitte bei mir auf [Discord](https://discord.com/users/409696362280517632).
+
+### Alttests
+Außerdem gibt es noch von mir gelöste Alttests zum Vergleichen, falls man üben will. Da sollte man allerdings eher vorsichtig sein, da diese auch Fehler enthalten könnten. Falls du Fehler findest melde dich bitte bei mir auf [Discord](https://discord.com/users/409696362280517632).
+
+
+### Algorithmensammlung von [aldinapoli](https://discord.com/users/575710766787985435).
+Neuerdings gibt es jetzt auch eine PDF, in welcher alle in der vo behandelten Algorithmen vorkommen. Diese dient zur schnellen Wiederholung der Algorithmen. Diese Datei wurde von   
 
 ## 📄 Format
 
