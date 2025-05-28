@@ -11,18 +11,7 @@ Da die meisten Inhalte aus Sätzen / Definitionen bestehen, wurde vieles davon a
 ## 📁 Inhalt
 
 ### Zusammenfassung
-Die Zusammenfassung ist in die Kapitel der LVA unterteilt:
-
-- 4. Folgen Reihen und Funktionen
-    - 4.1 Folgen
-    - 4.2 Unendliche Reihen
-    - 4.3 Asymptotischer Vergleich
-    - 4.4 Elementare Funktionen
-    - 4.5 Grenzwert und Stetigkeit
-- 5. Differentialrechnung
-    - 5.1 Ableitung
-    - 5.2 Satz von Taylor
-
+Die Zusammenfassung ist in die Kapitel der LVA unterteilt.
 
 Die PDF mit allen Kapiteln findest du direkt in diesem Ordner.
 
@@ -32,6 +21,7 @@ Die PDF mit allen Kapiteln findest du direkt in diesem Ordner
 
 ## 📄 Format
 -   **1. Test -- Zusammenfassung.pdf**: Stoffsammlung für den 1. Zwischentest
+-   **2. Test -- Zusammenfassung.pdf**: Stoffsammlung für den 2. Zwischentest
 -   **Kapitel-weise PDFs**: Jedes Kapitel der Zusammenfassung ist als separate PDF-Datei verfügbar und beinhaltet alles was in den Vorlesungen besprochen wurde.
     - Darunter fallen: 
         - Tafelbilder der vo
