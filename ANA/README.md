@@ -1,44 +1,28 @@
-# ANA Zusammenfassungen – Analysis
+# ANA Materialien – Analysis
 
-Willkommen zu meinen Zusammenfassungen/Stoffsammlung der Lehrveranstaltung **Analysis**.
+Willkommen zu den Materialien der Lehrveranstaltung **Analysis**.
 
 ## 🔍 Überblick
 
-Diese Zusammenfassungen wurden in **Obsidian** im Markdown-Format erstellt und stehen als vollständige und als **in einzelne Kapitel unterteilte PDF-Dateien** zur Verfügung.
+Aufgrund der engen Orientierung an den Inhalten des Buches "[Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm)" und zur Vermeidung von Urheberrechtsverletzungen, wurden die detaillierten Zusammenfassungen/Stoffsammlungen **entfernt**.
 
-Da die meisten Inhalte aus Sätzen / Definitionen bestehen, wurde vieles davon aus dem Buch [Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm) übernommen und kommentiert / mit Informationen welche auf den Tafelbildern der vo waren erweitert. 
+Es steht dir aber weiterhin eine umfassende **Formelsammlung** zur Verfügung, die dir beim Lernen helfen soll.
 
 ## 📁 Inhalt
 
-### Zusammenfassung
-Die Zusammenfassung ist in die Kapitel der LVA unterteilt.
-
-Die PDF mit allen Kapiteln findest du direkt in diesem Ordner.
-
 ### Formelsammlung von [aldinapoli](https://discord.com/users/575710766787985435).
-Die Formelsammlung ist in die Kapitel der LVA unterteilt
-Die PDF mit allen Kapiteln findest du direkt in diesem Ordner
-
-## 📄 Format
--   **1. Test -- Zusammenfassung.pdf**: Stoffsammlung für den 1. Zwischentest
--   **2. Test -- Zusammenfassung.pdf**: Stoffsammlung für den 2. Zwischentest
--   **Kapitel-weise PDFs**: Jedes Kapitel der Zusammenfassung ist als separate PDF-Datei verfügbar und beinhaltet alles was in den Vorlesungen besprochen wurde.
-    - Darunter fallen: 
-        - Tafelbilder der vo
-        - Sätze und Beispiele die in der vo gesprochen wurden
-
-- Wichtige Ergänzung: 
-    - Oft sind Verlinkungen zu Tafelbilder/Buchseiten in der Zusammenfassung drinnen, diese funktionieren im PDF Format allerdings nicht. Daher hab ich bei der Erstellung drauf geachtet, die Tafelbilder/Buchausschnitte von denen Informationen in der Zusammenfassung fehlen, als Screenshot einzufügen, sodass keine Information fehlt. Bei denen wo eine nicht funktionierende Verlinkung steht, stehen keine Informationen, die nicht schon in der Zusammenfassung/Stoffsammlung behandelt wurden und dienen daher lediglich als Quellenangabe/Notiz für mich.
-
+Die Formelsammlung ist in die Kapitel der Lehrveranstaltung unterteilt.
+Die PDF mit allen Kapiteln findest du direkt in diesem Ordner.
 
 ## 📚 Quellen
 
--   [Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm)
--   **Mitschriften** aus den Vorlesungen
--   Tafelbilder der Vorlesungen
--   [Zusammenfassung von Markus Kessler Kapitel 4](https://vowi.fsinf.at/images/2/2d/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_4_-_Folgen,_Reihen,_Funktionen.pdf)
--   [Zusammenfassung von Markus Kessler Kapitel 5](https://vowi.fsinf.at/images/c/cb/TU_Wien-Analysis_UE_%28diverse%29-Zusammenfassung_Mathematik_-_Kapitel_5_-_Differential-_und_Integralrechnung_in_einer_Variable.pdf)
+Die Inhalte der ehemaligen Zusammenfassungen und der Formelsammlung basierten auf den folgenden Quellen:
 
+* [Mathematik für Informatik](https://www.heldermann.de/BSM/BSM17/bsm17.htm)
+* **Mitschriften** aus den Vorlesungen
+* Tafelbilder der Vorlesungen
+* [Zusammenfassung von Markus Kessler Kapitel 4](https://vowi.fsinf.at/images/2/2d/TU_Wien-Analysis_UE_(diverse)-Zusammenfassung_Mathematik_-_Kapitel_4_-_Folgen,_Reihen,_Funktionen.pdf)
+* [Zusammenfassung von Markus Kessler Kapitel 5](https://vowi.fsinf.at/images/c/cb/TU_Wien-Analysis_UE_%28diverse%29-Zusammenfassung_Mathematik_-_Kapitel_5_-_Differential-_und_Integralrechnung_in_einer_Variable.pdf)
 
 ## 🙋 Feedback
 
