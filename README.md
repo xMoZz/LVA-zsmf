@@ -6,20 +6,16 @@ Sammlung meiner Zusammenfassungen für verschiedene Lehrveranstaltungen.
 
 ### [AlgoDat](AlgoDat/) - Algorithmen und Datenstrukturen
 
-Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Test als PDF)
-
-Kurzzusammenfassung zum schnellen Widerholen des Stoffes folgt noch.
+Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. und 2. Test als PDF)
 
 
 ### [ANA](ANA/) - Analysis 1
 
-Umfangreiche Zusammenfassung/Stoffsammlung (vollständige & kapitelweise Zusammenfassung für 1. Übungstest als PDFs)
-
-Umfangreiche Formelsammlung von [aldinapoli](https://discord.com/users/575710766787985435).
+Umfangreiche Formelsammlung für 1. und 2. Test von [aldinapoli](https://discord.com/users/575710766787985435).
 
 ### [DBS](dbs/) – Datenbanksysteme
 
-Umfangreiche Ausarbeitung von den Slides (vollständig & kapitelweise PDF), Alttests.
+Umfangreiche Ausarbeitung von den Slides (vollständig & kapitelweise PDF), (Alttests folgen).
 
 
 ### [EVC](EVC/) – Computer Grafik & Computer Vision
@@ -39,7 +35,7 @@ Zusammenfassungen für Fächer aus dem 1. Semester findest du in diesem [OneNote
 
 ## ➕ Kommende Zusammenfassungen
 
-Weitere Fächer wie DBS folgen im Laufe des Semesters.
+Weitere Fächer wie DBS folgen im Laufe der nächsten Semester.
 
 
 ## 📄 Format
