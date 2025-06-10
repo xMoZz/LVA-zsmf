@@ -18,6 +18,9 @@ Die Zusammenfassungen sind umfangreich, lassen sich aber in etwa **1 Stunde pro 
 - **📁 Formelsammlung:** Eine separate Zusammenstellung aller wichtigen Formeln findest du im Ordner `formelsammlung`.
 - **📁 Alttests:** Im Ordner `alttests` findest du PDFs mit **Musterlösungen** zu alten Tests des Fachs.
     - Bezüglich der Alltests empfiehlt sich, wenn man sie durch lesen will, beim aktuellsten zu beginnen. Da ich auch die Alltests in Absteigender Reihenfolge durchgearbeitet habe, habe ich in den aktuelleren Jahren natürlich viel mehr Begründungen stehen, wie und warum was richtig ist. Bei den älteren Tests stehen nicht mehr so viele Begründungen drinnen, da dann das meiste schon eher trivialer wirkt, wenn man die aktuelleren Tests mit Begründung gelesen und verstanden hat... 
+- **AI-Kurzzusammenfassung**: Eine von Ai generierte Kurzzusammenfassung, bei der viele Informationen fehlen, aber praktisch zum Wiederholen ist, wenn man den Stoff schon halbwegs gut beherrscht. Die AI hatte als Input die großen Kapitelzusammenfassungen und die Anweisung eine kürzere zusammengefasste Version zu erstellen.
+
+
 
 ## 📄 Formate
 
