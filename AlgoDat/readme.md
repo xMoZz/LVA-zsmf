@@ -14,21 +14,7 @@ Für den ersten Test gibt es eine separate zusammenfassende PDF-Datei. Zusätzli
 
 ### Zusammenfassung
 
-Die Zusammenfassung deckt folgende Kapitel ab:
-
-1.  Stable Matching Problem
-2.  Analyse von Algorithmen
-3.  Graphen
-4.  Greedy-Algorithmen
-5.  Divide and Conquer
-6.  Suchbäume
-7.  Hashing
-8.  Praktische Datenstrukturen
-
-Die **Test-Zusammenfassung** für den ersten Test findest du direkt in diesem Ordner als `1. Test zusammenfassungs datei.pdf`.
-
-Die **einzelnen Kapitel-PDFs** findest du im Unterordner `einzelne_kapitel/`.
-
+Die **Test-Zusammenfassung** für Tests findest du direkt in diesem Ordner
 
 ### Alttests
 Außerdem gibt es noch von mir gelöste Alttests zum Vergleichen, falls man üben will. Da sollte man allerdings eher vorsichtig sein, da diese auch Fehler enthalten könnten. Falls du Fehler findest melde dich bitte bei mir auf [Discord](https://discord.com/users/409696362280517632).
