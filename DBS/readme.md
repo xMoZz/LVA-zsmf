@@ -14,7 +14,7 @@ Für den SQL Test gibt es eine umfangreiche Ausarbeitung der Slides die dafür r
 
 ## 📄 Format
 
--   **PDF Dateien**: Die Zusammenfassung für den Test und die einzelnen Kapitel liegen als PDF-Dateien vor.
+-   **PDF Dateien**: Die Zusammenfassung für den Test und SQL Test sind in diesem Ordner zu finden.
 
 ## 📚 Quellen
 
