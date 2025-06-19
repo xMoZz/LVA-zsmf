@@ -4,11 +4,9 @@ Willkommen zu meinen Lernzetteln/Zusammenfassungen der Lehrveranstaltung **Algor
 
 ## 🔍 Überblick
 
-Diese Zusammenfassungen wurden basierend auf den Vorlesungsfolien erstellt und liegen als **PDF-Dateien** vor. Sie dienen als stichwortartige Gedächtnisstütze und orientieren sich stark an den Inhalten der Folien.
+Diese Zusammenfassungen wurden basierend auf den Vorlesungsfolien erstellt und liegen als **PDF-Datei** vor. Sie dienen als stichwortartige Gedächtnisstütze und orientieren sich stark an den Inhalten der Folien.
 
-Da der Fokus auf prägnanten Stichpunkten und der direkten Übernahme von Informationen aus den Slides lag, ist dies eher als eine **Stoffsammlung** zu verstehen, die die Struktur und viele Inhalte der Folien widerspiegelt. Meiner Meinung nach sind die **Slides bereits sehr gut aufbereitet**, um den Stoff zu lernen, und diese Zusammenfassungen dienen primär der schnellen Wiederholung und dem Überblick. Es wurde oft eine **1:1-Übernahme von Inhalten der Slides** vorgenommen.
-
-Für den ersten Test gibt es eine separate zusammenfassende PDF-Datei. Zusätzlich sind die einzelnen Kapitel nochmals in einem separaten Ordner als PDF-Dateien verfügbar, um ein gezielteres Wiederholen spezifischer Themen zu ermöglichen.
+Diese Zusammenfassung ist nur dafür geignet sich einen schnellen Überblick zu verschaffen. Sie ist sehr stark gekürzt und überspringt daher auch viel.
 
 ## 📁 Inhalt
 
